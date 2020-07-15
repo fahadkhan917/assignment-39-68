@@ -50,30 +50,67 @@
 
 // }
 
-function abc(){
+// function abc(){
 
-    var user=document.getElementById("usr").value;
-    var email=document.getElementById("email").value;
-    var pass=document.getElementById("pass").value;
-    var conpass=document.getElementById("conpass").value;
+//     var user=document.getElementById("usr").value;
+//     var email=document.getElementById("email").value;
+//     var pass=document.getElementById("pass").value;
+//     var conpass=document.getElementById("conpass").value;
     
-    var arr=[user,email,pass,conpass];
-    for(var i=0;i<arr.length;i++){
+//     var arr=[user,email,pass,conpass];
+//     for(var i=0;i<arr.length;i++){
 
-        nam.innerHTML=arr[0];
-        em.innerHTML=arr[1];
-        password.innerHTML=arr[2];
-        conpassword.innerHTML=arr[3];
+//         nam.innerHTML=arr[0];
+//         em.innerHTML=arr[1];
+//         password.innerHTML=arr[2];
+//         conpassword.innerHTML=arr[3];
       
-    }
+//     }
 
-    // nam.innerHTML=user;
-    // em.innerHTML=email;
-    // password.innerHTML=pass;
-    // conpassword.innerHTML=conpass;
+//     // nam.innerHTML=user;
+//     // em.innerHTML=email;
+//     // password.innerHTML=pass;
+//     // conpassword.innerHTML=conpass;
     
 
     
     
     
-}
+// }
+
+// function del(){
+
+//     var user=document.getElementById("nam");
+//     var email=document.getElementById("em")
+//     var pass=document.getElementById("password")
+//     var conpass=document.getElementById("conpassword")
+
+//     user.remove();
+//     email.remove();
+//     pass.remove();
+//     conpass.remove();
+
+
+// }
+
+// function edit(){
+
+   
+
+//     var user=document.getElementById("nam");
+//     var email=document.getElementById("em");
+//     var pass=document.getElementById("password");
+//     var conpass=document.getElementById("conpassword");
+    
+//     user.innerText="fahad";
+//     em.innerText="fk16181@gmail.com";
+//     password.innerText="123";
+//     conpassword.innerText="123";
+ 
+
+
+    
+
+
+
+// }
