@@ -42,10 +42,29 @@
 // }
 
 
+// function abc(){
+
+// var para="Neque, iste numquam culpa rerum odio rem aliquam voluptatem sunt? Hic illum, atque quae aspernatur accusantium explicabo possimus assumenda sapiente laudantium voluptatem!"
+// var pr=document.getElementById("para1");
+// pr.innerHTML+=para;
+
+// }
+
 function abc(){
 
-var para="Neque, iste numquam culpa rerum odio rem aliquam voluptatem sunt? Hic illum, atque quae aspernatur accusantium explicabo possimus assumenda sapiente laudantium voluptatem!"
-var pr=document.getElementById("para1");
-pr.innerHTML+=para;
+    var user=document.getElementById("usr").value;
+    var email=document.getElementById("email").value;
+    var pass=document.getElementById("pass").value;
+    var conpass=document.getElementById("conpass").value;
+    
+    
 
+    nam.innerHTML=user;
+    em.innerHTML=email;
+    password.innerHTML=pass;
+    conpassword.innerHTML=conpass;
+
+    
+    
+    
 }
