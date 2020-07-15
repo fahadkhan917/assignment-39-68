@@ -57,12 +57,21 @@ function abc(){
     var pass=document.getElementById("pass").value;
     var conpass=document.getElementById("conpass").value;
     
-    
+    var arr=[user,email,pass,conpass];
+    for(var i=0;i<arr.length;i++){
 
-    nam.innerHTML=user;
-    em.innerHTML=email;
-    password.innerHTML=pass;
-    conpassword.innerHTML=conpass;
+        nam.innerHTML=arr[0];
+        em.innerHTML=arr[1];
+        password.innerHTML=arr[2];
+        conpassword.innerHTML=arr[3];
+      
+    }
+
+    // nam.innerHTML=user;
+    // em.innerHTML=email;
+    // password.innerHTML=pass;
+    // conpassword.innerHTML=conpass;
+    
 
     
     
