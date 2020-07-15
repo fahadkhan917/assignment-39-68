@@ -1,6 +1,14 @@
 function abc(){
 
-   v
+   var i=document.getElementById("nu1");
+   var n=document.getElementById("nam1");
+   var c=document.getElementById("cls1");
+   var b=document.getElementById("btn1");
+   i.remove();
+   n.remove();
+   c.remove();
+  b.remove();
+
 
 
 }
