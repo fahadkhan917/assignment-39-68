@@ -11,21 +11,33 @@
 //     b.src="branding.jpg"
         
 //     }
-var count=0;
-function inc(){
+// var count=0;
+// function inc(){
   
-++count;
-var a=document.getElementById("para");
-para.innerText=count;
+// ++count;
+// var a=document.getElementById("para");
+// para.innerText=count;
+
+
+// }
+
+// function dec(){
+  
+//     count--;
+//     var b=document.getElementById("para");
+//     para.innerText=count;
+    
+    
+//     }
+
+function abc(){
+
+var user=document.getElementById("usr").value;
+var email=document.getElementById("email").value;
+var pass=document.getElementById("pass").value;
+var conpass=document.getElementById("conpass").value;
+
+document.write(user+"<br>"+email+"<br>"+pass+"<BR>"+conpass);
 
 
 }
-
-function dec(){
-  
-    count--;
-    var b=document.getElementById("para");
-    para.innerText=count;
-    
-    
-    }
