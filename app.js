@@ -1,17 +1,17 @@
-function abc(){
+// function abc(){
 
-   var i=document.getElementById("nu1");
-   var n=document.getElementById("nam1");
-   var c=document.getElementById("cls1");
-   var b=document.getElementById("btn1");
-   i.remove();
-   n.remove();
-   c.remove();
-  b.remove();
+//    var i=document.getElementById("nu1");
+//    var n=document.getElementById("nam1");
+//    var c=document.getElementById("cls1");
+//    var b=document.getElementById("btn1");
+//    i.remove();
+//    n.remove();
+//    c.remove();
+//   b.remove();
 
 
 
-}
+// }
 
 // function abc(){
 
@@ -129,3 +129,8 @@ function abc(){
 
 
 // }
+
+//chapter 58-67
+
+var main=document.getElementById("main-content");
+console.log(main.childNodes);
