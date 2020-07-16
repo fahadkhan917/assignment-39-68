@@ -1,18 +1,16 @@
 //chapter 38-44
 
 
-function power(){
+function power(a,b){
 
-  var value=Math.pow(7,3);
+  var value=Math.pow(a,b);
   document.write("power is"+value);
 
   
 }
 
-power();
+power(5,2);
 
-var value = Math.pow(7, 2);
-document.write("First Test Value : " + value );
 
 
 
