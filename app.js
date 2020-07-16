@@ -1,18 +1,38 @@
 //chapter 38-44
+//Q1
 
+// function power(a,b){
 
-function power(a,b){
-
-  var value=Math.pow(a,b);
-  document.write("power is"+value);
+//   var value=Math.pow(a,b);
+//   document.write("power is"+value);
 
   
+// }
+
+// power(5,2);
+
+
+//Q2
+
+function leap(){
+
+var user=prompt("enter the year");
+var leap=["2012","2016","2020"];
+for(var i=0;i<user.length;i++){
+
+if(user===leap[i]){
+
+document.write("this is");
+
 }
 
-power(5,2);
+
+}
 
 
+}
 
+leap();
 
 //chapter 38-44 end
 // function abc(){
