@@ -1,3 +1,22 @@
+//chapter 38-44
+
+
+function power(){
+
+  var value=Math.pow(7,3);
+  document.write("power is"+value);
+
+  
+}
+
+power();
+
+var value = Math.pow(7, 2);
+document.write("First Test Value : " + value );
+
+
+
+//chapter 38-44 end
 // function abc(){
 
 //    var i=document.getElementById("nu1");
