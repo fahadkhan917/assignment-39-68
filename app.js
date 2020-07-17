@@ -93,10 +93,9 @@
 
 //Q5
 
-function abc(a){
-
-
-var b=a.indexOf("h");
+function abc(a,){
+var ind=prompt("enter the index of")
+var b=a.indexOf(ind);
 document.write(b);
 }
 abc(a=prompt("enter the name"));
