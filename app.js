@@ -36,29 +36,61 @@
 
 
 //Q3
-var a=4;
-var b=5;
-var c=7;
-function tra(){
+// var a=4;
+// var b=5;
+// var c=7;
+// function tra(){
 
 
-var s=(a+b+c)/2;
-return s;
+// var s=(a+b+c)/2;
+// return s;
+
+
+
+// }
+
+// function area(){
+
+// var are= tra()*(tra()-a)*(tra()-b)*(tra()-c)
+// document.write("The area of triangle is"+are);
+
+
+// }
+
+
+// area();
+
+//Q4
+
+function mainfunction(){
+
+var math=80;
+var english=78;
+var urdu=80;
+var totalnum=math+english+urdu;
+var per=totalnum/300*100;
+return per;
 
 
 
 }
 
-function area(){
+function average(){
 
-var are= tra()*(tra()-a)*(tra()-b)*(tra()-c)
-document.write("The area of triangle is"+are);
 
 
 }
 
+function percentage(){
 
-area();
+// document.write("the percantage is"+mainfunction());
+
+var round=Math.floor(mainfunction());
+document.write(round);
+
+}
+percentage();
+
 
 //chapter 38-44 end
 // function abc(){
