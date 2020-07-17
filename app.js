@@ -36,12 +36,22 @@
 
 
 //Q3
-function tra(){
+function tra(a,b,c){
 
-var h,b,area;
-h=prompt("enter the height")
+var s=(a+b+c)/2;
+return s;
+
 
 }
+
+function area(){
+
+  
+
+
+}
+
+tra(5,4,7);
 
 //chapter 38-44 end
 // function abc(){
