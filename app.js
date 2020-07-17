@@ -14,25 +14,34 @@
 
 //Q2
 
-function leap(){
+// function leap(){
 
-var user=prompt("enter the year");
-var leap=["2012","2016","2020"];
-for(var i=0;i<user.length;i++){
+// var user=prompt("enter the year");
+// var leap=["2012","2016","2020"];
+// for(var i=0;i<user.length;i++){
 
-if(user===leap[i]){
+// if(user===leap[i]){
 
-document.write("this is");
+// document.write("this is");
+
+// }
+
+
+// }
+
+
+// }
+
+// leap();
+
+
+//Q3
+function tra(){
+
+var h,b,area;
+h=prompt("enter the height")
 
 }
-
-
-}
-
-
-}
-
-leap();
 
 //chapter 38-44 end
 // function abc(){
