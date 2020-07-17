@@ -36,22 +36,29 @@
 
 
 //Q3
-function tra(a,b,c){
+var a=4;
+var b=5;
+var c=7;
+function tra(){
+
 
 var s=(a+b+c)/2;
 return s;
+
 
 
 }
 
 function area(){
 
-  
+var are= tra()*(tra()-a)*(tra()-b)*(tra()-c)
+document.write("The area of triangle is"+are);
 
 
 }
 
-tra(5,4,7);
+
+area();
 
 //chapter 38-44 end
 // function abc(){
