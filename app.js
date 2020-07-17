@@ -62,34 +62,44 @@
 
 //Q4
 
-function mainfunction(){
+// function mainfunction(){
 
-var math=80;
-var english=78;
-var urdu=80;
-var totalnum=math+english+urdu;
-var per=totalnum/300*100;
-return per;
+// var math=80;
+// var english=78;
+// var urdu=80;
+// var totalnum=math+english+urdu;
+// var per=totalnum/300*100;
+// return per;
 
 
 
+// }
+
+// function average(){
+
+
+
+// }
+
+// function percentage(){
+
+// // document.write("the percantage is"+mainfunction());
+
+// var round=Math.floor(mainfunction());
+// document.write(round);
+
+// }
+// percentage();
+
+//Q5
+
+function abc(a){
+
+
+var b=a.indexOf("h");
+document.write(b);
 }
-
-function average(){
-
-
-
-}
-
-function percentage(){
-
-// document.write("the percantage is"+mainfunction());
-
-var round=Math.floor(mainfunction());
-document.write(round);
-
-}
-percentage();
+abc(a=prompt("enter the name"));
 
 
 //chapter 38-44 end
