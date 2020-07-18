@@ -192,6 +192,11 @@
 // }
 
 //Q10
+var amount=prompt("enter the amount");
+document.write("notes of 100 "+amount/100+"<br>");
+    
+document.write("notes of 50 "+(amount%100)/50+"<br>");
+document.write("notes of 10 "+(((amount%100)%50)%10));
 
 
 
