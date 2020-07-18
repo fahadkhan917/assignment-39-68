@@ -93,13 +93,24 @@
 
 //Q5
 
-function abc(a,){
-var ind=prompt("enter the index of")
-var b=a.indexOf(ind);
-document.write(b);
-}
-abc(a=prompt("enter the name"));
+// function abc(a,){
+// var ind=prompt("enter the index of")
+// var b=a.indexOf(ind);
+// document.write(b);
+// }
+// abc(a=prompt("enter the name"));
 
+//Q6
+
+
+// function vow(a){
+
+// var strg=a.replace(/[aeiou]/g,'');
+// document.write(strg);
+
+// }
+
+// vow(prompt("Enter the sentence","vowel remove"));
 
 //chapter 38-44 end
 // function abc(){
