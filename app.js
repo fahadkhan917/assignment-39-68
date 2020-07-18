@@ -116,52 +116,65 @@
 
 //Q7
 
-function occ(){
-
-//   var word="Pleases read this application and give me gratuity";
-//   var count=0;
-//   for(var i=0;i<word.length;i++){
-
-//    switch(word){
-//    case word.charAt(i)=='a':
-//      count++;
-//      break;
+// function occ(){
 
 
+// var temp="Pleases read this application and give me gratuity";
+// var a=temp.match(/ea/g).length;
+// var count=0;
+// count=a;
 
+// switch(temp,a){
 
-//    }
+//   case a :
+//     document.write(count)
 
-//   }
-// document.write(count);
-
-var temp="Pleases read this application and give me gratuity";
-var a=temp.match(/ea/g).length;
-var count=0;
-count=a;
-
-switch(temp,a){
-
-  case a :
-    document.write(count)
-
-    break;
+//     break;
 
    
-    default:  
-    document.write("sorry")
+//     default:  
+//     document.write("sorry")
+
+// }
+
+
+
+// }
+
+
+
+// occ();
+
+//Q8
+
+var distance=prompt("enter the distance between");
+
+
+function meter(){
+var mtr=distance*1000;
+document.write("meter: "+mtr+"<br>");
+
 
 }
-
-
+function feet(){
+var fet=distance*3280.84;
+document.write("Feets: "+fet+"<br>");
 
 }
+function inches(){
+inc=distance*39370.1
+document.write("inches:"+inc+"<br>");
 
+}
+function centimeters(){
+cen=distance*100000;
+document.write("centimeter:" +cen);
 
-
-occ();
-
-
+}
+meter();
+feet();
+inches();
+centimeters();
 
 //chapter 38-44 end
 // function abc(){
