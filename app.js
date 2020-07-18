@@ -116,20 +116,47 @@
 
 //Q7
 
-// function occ(){
+function occ(){
 
-//   var word="hello fahad ae";
+//   var word="Pleases read this application and give me gratuity";
 //   var count=0;
 //   for(var i=0;i<word.length;i++){
 
-//    switch
+//    switch(word){
+//    case word.charAt(i)=='a':
+//      count++;
+//      break;
+
+
+
+
+//    }
 
 //   }
+// document.write(count);
 
+var temp="Pleases read this application and give me gratuity";
+var a=temp.match(/ea/g).length;
+var count=0;
+count=a;
+
+switch(temp,a){
+
+  case a :
+    document.write(count)
+
+    break;
+
+   
+    default:  
+    document.write("sorry")
+
+}
 
 
 
 }
+
 
 
 occ();
