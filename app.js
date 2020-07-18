@@ -112,6 +112,30 @@
 
 // vow(prompt("Enter the sentence","vowel remove"));
 
+
+
+//Q7
+
+// function occ(){
+
+//   var word="hello fahad ae";
+//   var count=0;
+//   for(var i=0;i<word.length;i++){
+
+//    switch
+
+//   }
+
+
+
+
+}
+
+
+occ();
+
+
+
 //chapter 38-44 end
 // function abc(){
 
