@@ -93,7 +93,7 @@
 
 //Q5
 
-// function abc(a,){
+// function abc(a){
 // var ind=prompt("enter the index of")
 // var b=a.indexOf(ind);
 // document.write(b);
@@ -147,34 +147,49 @@
 
 //Q8
 
-var distance=prompt("enter the distance between");
+// var distance=prompt("enter the distance between");
 
 
-function meter(){
-var mtr=distance*1000;
-document.write("meter: "+mtr+"<br>");
+// function meter(){
+// var mtr=distance*1000;
+// document.write("meter: "+mtr+"<br>");
 
 
+// }
+// function feet(){
+// var fet=distance*3280.84;
+// document.write("Feets: "+fet+"<br>");
+
+// }
+// function inches(){
+// inc=distance*39370.1
+// document.write("inches:"+inc+"<br>");
+
+// }
+// function centimeters(){
+// cen=distance*100000;
+// document.write("centimeter:" +cen);
+
+// }
+// meter();
+// feet();
+// inches();
+// centimeters();
+
+//Q9
+
+// var hour=prompt("enter the hour of week");
+var hourto=prompt("enter the hour");
+var ratehour=12;
+if(hourto>40){
+var overtime=hourto-40;
+var overtimepay=overtime*12;
+document.write("pay extra"+overtimepay);
+var fra=prompt("fractional mintues");
+var fratotal=fra/60;
+var round=fratotal.toFixed(2)
+document.write("fractional hour is"+round);
 }
-function feet(){
-var fet=distance*3280.84;
-document.write("Feets: "+fet+"<br>");
-
-}
-function inches(){
-inc=distance*39370.1
-document.write("inches:"+inc+"<br>");
-
-}
-function centimeters(){
-cen=distance*100000;
-document.write("centimeter:" +cen);
-
-}
-meter();
-feet();
-inches();
-centimeters();
 
 //chapter 38-44 end
 // function abc(){
