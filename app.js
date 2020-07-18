@@ -178,18 +178,22 @@
 
 //Q9
 
-// var hour=prompt("enter the hour of week");
-var hourto=prompt("enter the hour");
-var ratehour=12;
-if(hourto>40){
-var overtime=hourto-40;
-var overtimepay=overtime*12;
-document.write("pay extra"+overtimepay);
-var fra=prompt("fractional mintues");
-var fratotal=fra/60;
-var round=fratotal.toFixed(2)
-document.write("fractional hour is"+round);
-}
+
+// var hourto=prompt("enter the hour");
+// var ratehour=12;
+// if(hourto>40){
+// var overtime=hourto-40;
+// var overtimepay=overtime*12;
+// document.write("pay extra"+overtimepay);
+// var fra=prompt("fractional mintues");
+// var fratotal=fra/60;
+// var round=fratotal.toFixed(2)
+// document.write("fractional hour is"+round);
+// }
+
+//Q10
+
+
 
 //chapter 38-44 end
 // function abc(){
