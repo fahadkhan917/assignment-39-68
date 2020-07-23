@@ -335,8 +335,14 @@
 
 //chapter 58-67
 
-// var main=document.getElementById("main-content");
-// console.log(main.childNodes);
-var allcls=document.getElementsByClassName("content");
-document.write(allcls[0].innerHTML);
-document.write(allcls[1].innerHTML);
+// var main=document.getElementById("main-content"); //part1
+// console.log(main.childNodes); //part2
+// var allcls=document.getElementsByClassName("content"); //part3
+// document.write(allcls[0].innerHTML);
+// document.write(allcls[1].innerHTML);
+// var fname=document.getElementById('first-name'); //part4
+// fname.value="fahad";
+// var lname=document.getElementById('last-name');// part5
+// lname.value="khan";
+// var em=document.getElementById('email');
+// em.value="fk16181@gmail.com";
