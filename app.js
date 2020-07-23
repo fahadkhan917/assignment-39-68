@@ -354,6 +354,22 @@
 // part1
 // var frm=document.getElementById('form-content');
 // console.log(frm.nodeType);
-var lname=document.getElementById('last-name');
-console.log(lname.parentElement.childNodes[11]);
+//part2
+// var lname=document.getElementById('last-name');
+// console.log(lname.nodeType);
+// console.log(lname.parentElement.childNodes[11].nodeType);
+// part3
+// var lname=document.getElementById('last-name');
+// console.log(lname.parentElement.childNodes[9]);
+// lname.parentElement.childNodes[9].innerHTML="address";
 
+// part4
+
+// var main=document.getElementById("main-content");
+// console.log(main.firstChild);
+// var main=document.getElementById("main-content");
+// console.log(main.lastChild);
+
+//part5
+var l=document.getElementById("lastName");
+console.log(l.previousSibling);
