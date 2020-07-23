@@ -335,6 +335,8 @@
 
 //chapter 58-67
 
+//Question 01 
+
 // var main=document.getElementById("main-content"); //part1
 // console.log(main.childNodes); //part2
 // var allcls=document.getElementsByClassName("content"); //part3
@@ -346,3 +348,13 @@
 // lname.value="khan";
 // var em=document.getElementById('email');
 // em.value="fk16181@gmail.com";
+
+//Questio 02
+
+// part1
+// var frm=document.getElementById('form-content');
+// console.log(frm.nodeType);
+var lname=document.getElementById('last-name');
+
+console.log(lname.parentElement.childNodes[11]);
+
