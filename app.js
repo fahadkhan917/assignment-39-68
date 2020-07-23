@@ -371,5 +371,14 @@
 // console.log(main.lastChild);
 
 //part5
-var l=document.getElementById("lastName");
-console.log(l.previousSibling);
+// var l=document.getElementById("lastName");
+// console.log(l.previousSibling);
+
+// var l=document.getElementById("lastName");
+// console.log(l.nextSibling);
+
+// part6
+// var email=document.getElementById("email");
+// console.log(email.parentNode);
+// var email=document.getElementById("email");
+// console.log(email.childNodes);
