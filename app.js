@@ -192,11 +192,11 @@
 // }
 
 //Q10
-var amount=prompt("enter the amount");
-document.write("notes of 100 "+amount/100+"<br>");
+// var amount=prompt("enter the amount");
+// document.write("notes of 100 "+amount/100+"<br>");
     
-document.write("notes of 50 "+(amount%100)/50+"<br>");
-document.write("notes of 10 "+(((amount%100)%50)%10));
+// document.write("notes of 50 "+(amount%100)/50+"<br>");
+// document.write("notes of 10 "+(((amount%100)%50)%10));
 
 
 
@@ -335,5 +335,8 @@ document.write("notes of 10 "+(((amount%100)%50)%10));
 
 //chapter 58-67
 
-var main=document.getElementById("main-content");
-console.log(main.childNodes);
+// var main=document.getElementById("main-content");
+// console.log(main.childNodes);
+var allcls=document.getElementsByClassName("content");
+document.write(allcls[0].innerHTML);
+document.write(allcls[1].innerHTML);
