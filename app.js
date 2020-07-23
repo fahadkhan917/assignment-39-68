@@ -355,6 +355,5 @@
 // var frm=document.getElementById('form-content');
 // console.log(frm.nodeType);
 var lname=document.getElementById('last-name');
-
 console.log(lname.parentElement.childNodes[11]);
 
