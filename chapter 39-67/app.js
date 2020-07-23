@@ -343,11 +343,12 @@
 
 // }
 
-function zom(){
+// function zom(e){
 
+// var img=document.getElementById('i');
+// img.src=e.src;
 
-    
-}
+// }
 
 
 //chapter 58-67
