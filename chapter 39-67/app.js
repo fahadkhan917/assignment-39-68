@@ -1,4 +1,4 @@
-//chapter 38-44
+//chapter 38-42
 //Q1
 
 // function power(a,b){
@@ -200,7 +200,12 @@
 
 
 
-//chapter 38-44 end
+//chapter 38-42 end
+
+
+//chapter 43-48
+// Question 1 & 2 on html page
+// question 3 
 // function abc(){
 
 //    var i=document.getElementById("nu1");
@@ -215,7 +220,7 @@
 
 
 // }
-
+//question 4
 // function abc(){
 
 // var a=document.getElementById("im1");
@@ -229,6 +234,8 @@
 //     b.src="branding.jpg"
         
 //     }
+
+//Question 5
 // var count=0;
 // function inc(){
   
@@ -248,6 +255,8 @@
     
 //     }
 
+//chapter 49-52
+// Question 1
 // function abc(){
 
 // var user=document.getElementById("usr").value;
@@ -259,7 +268,7 @@
 
 // }
 
-
+//Question 2
 // function abc(){
 
 // var para="Neque, iste numquam culpa rerum odio rem aliquam voluptatem sunt? Hic illum, atque quae aspernatur accusantium explicabo possimus assumenda sapiente laudantium voluptatem!"
@@ -268,6 +277,7 @@
 
 // }
 
+//Question 3
 // function abc(){
 
 //     var user=document.getElementById("usr").value;
